@@ -1,0 +1,17 @@
+# --- CivicPulse: CPU / app / dev dependencies ---
+pandas>=2.1
+pyarrow>=14
+requests>=2.31
+numpy>=1.26
+scikit-learn>=1.3
+streamlit>=1.36
+plotly>=5.22
+google-generativeai>=0.7      # Gemini (swap for vertexai on GCP)
+python-dotenv>=1.0
+tqdm>=4.66
+
+# --- GPU / acceleration (Track B) ---
+# Do NOT pip-install these on a CPU box. Use a RAPIDS environment
+# (Colab with an L4/T4 GPU, or `rapidsai/base` container). See notebooks/.
+#   cudf-cu12
+#   cuml-cu12
