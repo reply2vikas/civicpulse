@@ -6,7 +6,7 @@ numpy>=1.26
 scikit-learn>=1.3
 streamlit>=1.36
 plotly>=5.22
-google-generativeai>=0.7      # Gemini (swap for vertexai on GCP)
+google-genai>=1.0  # Gemini (swap for vertexai on GCP)
 python-dotenv>=1.0
 tqdm>=4.66
 
