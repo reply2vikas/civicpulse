@@ -42,6 +42,8 @@ interactive at city scale. Reproduce it in notebooks/benchmark_cpu_vs_gpu.ipynb
 
 Architecture
 
+
+
 OpenCity BBMP CSVs ─► src/ingest.py (clean) ─► parquet
                                                  │
                  ┌───────────────────────────────┴──────────────┐
@@ -53,6 +55,7 @@ OpenCity BBMP CSVs ─► src/ingest.py (clean) ─► parquet
                                          │
                      Gemini roadmap  ◄───┴──►  Streamlit dashboard ─► public URL
 
+                     
 
 Google Cloud: Gemini (gemini-flash-latest) generates the intervention roadmap.
 NVIDIA: cuDF / RAPIDS accelerates the ward × category re-aggregation.
