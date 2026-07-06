@@ -99,13 +99,6 @@ python -m src.ingest --local data/sample --years 2025
 # full build (needs open internet to data.opencity.in):
 python -m src.ingest
 ```
-
-## 3-day plan
-
-- **Day 1** — ingest ✅, severity ✅, ward-geo join, aggregation/ranking, sample map.
-- **Day 2** — cuDF/cuML pipeline + CPU-vs-GPU benchmark notebook; Gemini roadmap; wire Streamlit.
-- **Day 3** — deploy to Cloud Run (public URL), README + GitHub, ≤3-min demo video, 5-slide deck.
-
 ## Data credit
 
 BBMP grievance data via OpenCity (data.opencity.in), Public Domain.
