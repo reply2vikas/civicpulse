@@ -12,7 +12,7 @@ interactive instead of running as an overnight batch job.
 
 
 Live app: https://civicpulse-cxjn4zazkvykvfxywz2vza.streamlit.app/
-Demo video: (add link)
+Demo video: (https://youtu.be/2Qz6VklbYZg)
 
 
 The user & the decision
