@@ -10,7 +10,6 @@ entire city's multi-year complaint history in milliseconds, so the analysis stay
 interactive instead of running as an overnight batch job.
 
 
-
 Live app: https://civicpulse-cxjn4zazkvykvfxywz2vza.streamlit.app/
 
 Demo video: (https://youtu.be/2Qz6VklbYZg)
